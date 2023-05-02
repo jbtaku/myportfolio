@@ -1,0 +1,9 @@
+@media screen and (max-width: 400px) {
+    .myimg {
+      display: block;
+      margin: auto;
+    }
+    .mytext {
+      text-align: center;
+    }
+  }

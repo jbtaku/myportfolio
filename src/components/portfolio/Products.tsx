@@ -11,7 +11,7 @@ function Products() {
         <Box justifyContent={"center"} display={"flex"} flexWrap={"wrap"}>
           <ProductCard img="/img/Todo.png" title="Todo" description="Reactを使用して作成した簡単なtodoリストです。todoの状態ごとに表示したり、まとめて削除することができます。" url="/TodoHome"/>
           <ProductCard img="/img/Predict.png" title="顔から楽器推定" description="顔画像からやってそうな楽器を推定するサイトです。pythonとReactで作成しました。
-          WebフレームワークにはFastAPIを使用しています。" url="/PredictHome"/>          
+          WebフレームワークにはFastAPIを使用しています。僕の実力不足で上手くデプロイできていないのでリモートでは動作しないです。" url="/PredictHome"/>          
         </Box>
       </Box>
     </>

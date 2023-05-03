@@ -5,7 +5,7 @@ const handleImageUpload = async (file: File, setData: (data:Answer)=>void): Prom
   const formData = new FormData();
   formData.append("image", file);
   try {
-    const response = await axios.post("https://mighty-beach-92849.herokuapp.com/", formData, {
+    const response = await axios.post("http://127.0.0.1:8000/upload/", formData, {
       headers: {
         "Content-Type": "multipart/form-data",
       },  
